@@ -5,17 +5,9 @@
     --primary-color-darker: #FFFFFF;
 }
 
-* {
-    box-sizing: border-box;
-    outline: 0;
-}
-
 body {
-    margin: 0;
-    padding: 0;
     background: var(--primary-color);
     font-family: "Inter", sans-serif;
-    font-size: 1.3em;
     line-height: 1.5em;
 }
 
@@ -37,22 +29,10 @@ body {
     border-width: 2px;
 }
 
-form input,
-form label,
-form button {
-    display: block;
-    width: 100%;
+input {
+    height: 3rem;
 }
 
-form input {
-    font-size: 24px;
-    height: 50px;
-    padding: 0 20px;
-}
-
-form input:focus {
-    outline: 1px solid var(--primary-color);
-}
 
 button {
     width: 100%;
@@ -60,7 +40,7 @@ button {
 }
 
 .error-text {
-    font-size: 14px;
+    font-size: 1rem;
     color: rgb(189, 0, 0);
 }
 
@@ -88,4 +68,10 @@ button {
 
 .produtos-body {
     margin-block: 2rem;
+}
+
+#produto-dados {
+    border: solid #E4E7E7;
+    border-radius: 0.5rem;
+    border-width: 2px;
 }
