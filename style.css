@@ -75,3 +75,16 @@ button {
     border-radius: 0.5rem;
     border-width: 2px;
 }
+
+.required-indicator {
+    color: red;
+    margin-left: 2px;
+}
+
+.optional-indicator {
+    padding-left: 0.5rem;
+    font-size: 0.75rem;
+    color: gray;
+    font-weight: 400;
+    font-style: italic;
+}

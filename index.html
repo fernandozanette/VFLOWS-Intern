@@ -24,75 +24,83 @@
             <form action="." method="get" class="section-content">
                 <div class="row mb-3">
                     <div class="col-md-8">
-                        <label for="razao_social" class="form-label">Razão Social</label>
-                        <input type="text" id="razao_social" class="form-control validar">
+                        <label for="razao-social" class="form-label lh-1">Razão Social<span
+                                class="required-indicator">*</span></label>
+                        <input type="text" id="razao-social" class="form-control validar">
                     </div>
                     <div class="col-md-4">
-                        <label for="cnpj" class="form-label">CNPJ</label>
+                        <label for="cnpj" class="form-label lh-1">CNPJ<span class="required-indicator">*</span></label>
                         <input type="text" id="cnpj" class="form-control validar">
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col-md-8">
-                        <label for="nome_fantasia" class="form-label">Nome Fantasia</label>
-                        <input type="text" id="nome_fantasia" class="form-control validar">
+                        <label for="nome-fantasia" class="form-label lh-1">Nome Fantasia<span
+                                class="required-indicator">*</span></label>
+                        <input type="text" id="nome-fantasia" class="form-control validar">
                     </div>
                     <div class="col-md-4">
-                        <label for="insc_estadual" class="form-label">Inscrição Estadual</label>
-                        <input type="text" id="insc_estadual" class="form-control validar">
+                        <label for="insc-estadual" class="form-label lh-1">Inscrição Estadual<span
+                                class="optional-indicator">Opcional</span></label>
+                        <input type="text" id="insc-estadual" class="form-control validar">
                     </div>
                 </div>
                 <div class="row mb-3 justify-content-between">
                     <div class="col-md-4">
-                        <label for="cep" class="form-label">CEP</label>
+                        <label for="cep" class="form-label lh-1">CEP<span class="required-indicator">*</span></label>
                         <input name="cep" id="cep" type="text" class="form-control validar">
                     </div>
                     <div class="col-md-4">
-                        <label for="insc_municipal" class="form-label">Inscrição Municipal</label>
-                        <input type="text" id="insc_municipal" class="form-control validar">
+                        <label for="insc-municipal" class="form-label lh-1">Inscrição Municipal<span
+                                class="optional-indicator">Opcional</span></label>
+                        <input type="text" id="insc-municipal" class="form-control validar">
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col-md-8">
-                        <label for="endereco" class="form-label">Endereço</label>
+                        <label for="endereco" class="form-label lh-1">Endereço</label>
                         <input name="endereco" id="endereco" type="text" class="form-control validar">
                     </div>
                     <div class="col-md-4">
-                        <label for="numero" class="form-label">Número</label>
+                        <label for="numero" class="form-label lh-1">Número<span
+                                class="required-indicator">*</span></label>
                         <input name="numero" id="numero" type="text" class="form-control validar">
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col-md-12">
-                        <label for="complemento" class="form-label">Complemento</label>
+                        <label for="complemento" class="form-label lh-1">Complemento</label>
                         <input name="complemento" id="complemento" type="text" class="form-control validar">
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col-md-4">
-                        <label for="bairro" class="form-label">Bairro</label>
+                        <label for="bairro" class="form-label lh-1">Bairro</label>
                         <input name="bairro" id="bairro" type="text" class="form-control validar">
                     </div>
                     <div class="col-md-4">
-                        <label for="cidade" class="form-label">Município</label>
+                        <label for="cidade" class="form-label lh-1">Município</label>
                         <input name="cidade" id="cidade" type="text" class="form-control validar">
                     </div>
                     <div class="col-md-4">
-                        <label for="estado" class="form-label">Estado</label>
+                        <label for="estado" class="form-label lh-1">Estado</label>
                         <input name="estado" id="estado" type="text" class="form-control validar">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <label for="contato" class="form-label">Nome da Pessoa de Contato</label>
+                        <label for="contato" class="form-label lh-1">Nome da Pessoa de Contato<span
+                                class="required-indicator">*</span></label>
                         <input type="text" id="contato" class="form-control validar">
                     </div>
                     <div class="col-md-4">
-                        <label for="telefone" class="form-label">Telefone</label>
+                        <label for="telefone" class="form-label lh-1">Telefone<span
+                                class="required-indicator">*</span></label>
                         <input type="text" id="telefone" class="form-control validar">
                     </div>
                     <div class="col-md-4">
-                        <label for="email" class="form-label">E-mail</label>
+                        <label for="email" class="form-label lh-1">E-mail<span
+                                class="required-indicator">*</span></label>
                         <input type="email" id="email" class="form-control validar">
                     </div>
                 </div>
@@ -106,8 +114,11 @@
                 <div id="produto-exemplo" class="d-flex gap-3">
 
                     <div class="col-auto d-flex align-items-center">
-                        <img src="https://api.iconify.design/ic/baseline-delete.svg?color=red"
-                            style="width: 32px; cursor: pointer;" alt="Remover produto">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="red" cursor="pointer"
+                            class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5m-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5M4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06m6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528M8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5" />
+                        </svg>
                     </div>
 
                     <div id="produto-dados" class="p-2 mb-3">
@@ -119,25 +130,72 @@
                             <form action="." method="get" class="col-md-10">
                                 <div class="row mb-3">
                                     <div class="col-md-12">
-                                        <label for="produto" class="form-label">Produto</label>
+                                        <label for="produto" class="form-label lh-1">Produto</label>
                                         <input type="text" id="produto" class="form-control validar">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <label for="medida" class="form-label">UND. Medida</label>
+                                        <label for="medida" class="form-label lh-1">UND. Medida</label>
                                         <input type="text" id="medida" class="form-control validar">
                                     </div>
                                     <div class="col-md-3">
-                                        <label for="estoque" class="form-label">QDTDE. em Estoque</label>
+                                        <label for="estoque" class="form-label lh-1">QDTDE. em Estoque</label>
                                         <input type="text" id="estoque" class="form-control validar">
                                     </div>
                                     <div class="col-md-3">
-                                        <label for="unitario" class="form-label">Valor Unitário</label>
+                                        <label for="unitario" class="form-label lh-1">Valor Unitário</label>
                                         <input type="text" id="unitario" class="form-control validar">
                                     </div>
                                     <div class="col-md-3">
-                                        <label for="total" class="form-label">Valor Total</label>
+                                        <label for="total" class="form-label lh-1">Valor Total</label>
+                                        <input type="text" id="total" disabled class="form-control validar">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="produto-exemplo" class="d-flex gap-3">
+
+                    <div class="col-auto d-flex align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="red" cursor="pointer"
+                            class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5m-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5M4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06m6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528M8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5" />
+                        </svg>
+                    </div>
+
+                    <div id="produto-dados" class="p-2 mb-3">
+                        <h3 class="fs-5 mb-3">Produto 1</h3>
+                        <div class="row align-items-center">
+                            <div class="col-md-2 text-center">
+                                <img class="img-fluid" src="docs/assets/18184239_771u_10wl_210528.jpg" alt="Produto">
+                            </div>
+                            <form action="." method="get" class="col-md-10">
+                                <div class="row mb-3">
+                                    <div class="col-md-12">
+                                        <label for="produto" class="form-label lh-1">Produto</label>
+                                        <input type="text" id="produto" class="form-control validar">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <label for="medida" class="form-label lh-1">UND. Medida</label>
+                                        <input type="text" id="medida" class="form-control validar">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="estoque" class="form-label lh-1">QDTDE. em Estoque</label>
+                                        <input type="text" id="estoque" class="form-control validar">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="unitario" class="form-label lh-1">Valor Unitário</label>
+                                        <input type="text" id="unitario" class="form-control validar">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="total" class="form-label lh-1">Valor Total</label>
                                         <input type="text" id="total" disabled class="form-control validar">
                                     </div>
                                 </div>
