@@ -29,13 +29,13 @@ O desenvolvimento do formulário seguiu o layout existente na guia: [Layout](#-l
 ## 📋 Tecnologias
 
 - **HTML5**;
-- **CSS3**:  
+- **CSS3**;
 - **JavaScript**;
-- [Bootstrap 5](https://getbootstrap.com/)
-- [jQuery 3.7.1](https://jquery.com/)
+- [Bootstrap 5](https://getbootstrap.com/);
+- [jQuery 3.7.1](https://jquery.com/).
 
-- **CONSIDERAÇÕES**:
-  - Foi utilizada a documentação de recursos e estilos conforme este [link](https://style.fluig.com/)
+  - **CONSIDERAÇÕES**:
+    - Foi utilizada a documentação de recursos e estilos conforme este [link](https://style.fluig.com/)
   
 
 ### Sobre o preenchimento dos campos existentes no formulário de cadastro
