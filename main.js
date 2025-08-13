@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log(dadosListaAnexos)
             const anexos = dadosListaAnexos.map((meta, index) => {
                 return {
-                    indice: index + 1, 
+                    indice: index + 1,
                     nomeArquivo: meta.nomeArquivo,
                     blobArquivo: meta.id
                 };
@@ -280,12 +280,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const valorUnitarioInput = produtoEntrada.find('.produto-unitario');
             const valorTotalInput = produtoEntrada.find('.produto-total');
 
-            const quantidadeString = estoqueInput.val();
+            const quantidadeString = estoqueInput.val().replace(',', '.');
             const valorUnitarioString = valorUnitarioInput.val().replace(/\./g, '').replace(',', '.');
 
-            if (quantidadeString && valorUnitarioString) {
-                const quantidade = parseFloat(quantidadeString);
-                const precoUnitario = parseFloat(valorUnitarioString);
+            const quantidade = parseFloat(quantidadeString);
+            const precoUnitario = parseFloat(valorUnitarioString);
+
+            if (!isNaN(quantidade) && !isNaN(precoUnitario) && quantidade>0 && precoUnitario>0) {
                 const totalCalculado = quantidade * precoUnitario;
                 valorTotalInput.val(totalCalculado.toLocaleString('pt-BR', {
                     style: 'currency',
