@@ -2,11 +2,10 @@ $(document).ready(function () {
 
     function limpa_formulário_cep() {
         // Limpa valores do formulário de cep.
-        $("#rua").val("");
+        $("#endereco").val("");
         $("#bairro").val("");
         $("#cidade").val("");
-        $("#uf").val("");
-        $("#ibge").val("");
+        $("#estado").val("");
     }
 
     //Quando o campo cep perde o foco.
@@ -29,7 +28,6 @@ $(document).ready(function () {
                 $("#bairro").val("...");
                 $("#cidade").val("...");
                 $("#estado").val("...");
-                $("#complemento").val("...");
 
                 //Consulta o webservice viacep.com.br/
                 $.getJSON("https://viacep.com.br/ws/" + cep + "/json/?callback=?", function (dados) {
@@ -40,7 +38,6 @@ $(document).ready(function () {
                         $("#bairro").val(dados.bairro);
                         $("#cidade").val(dados.localidade);
                         $("#estado").val(dados.uf);
-                        $("#complemento").val(dados.complemento);
                         $("#numero").focus();
                     } //end if.
                     else {

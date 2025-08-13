@@ -70,7 +70,7 @@ button {
     margin-block: 2rem;
 }
 
-#produto-dados {
+#produto-dados, #anexo-dados {
     border: solid #E4E7E7;
     border-radius: 0.5rem;
     border-width: 2px;
