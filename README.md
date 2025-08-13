@@ -79,18 +79,18 @@ Como este é um projeto front-end puro, não há necessidade de compilação ou 
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    https://github.com/fernandozanette/VFLOWS-Intern.git
     ```
     Ou baixe o arquivo ZIP e extraia-o em uma pasta.
 
 2.  **Abra o projeto no VS Code:**
     ```bash
-    cd seu-repositorio
+    cd VFLOWS-Intern
     code .
     ```
 
 3.  **Instale a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer):**
-    * Vá para a aba de Extensões (ícone de blocos no menu lateral ou `Ctrl+Shift+X`).
+    * Vá para a aba de Extensões (`Ctrl+Shift+X`).
     * Procure por `Live Server` e clique em **Install**.
 
 4.  **Inicie o servidor:**
