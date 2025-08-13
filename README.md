@@ -15,7 +15,7 @@
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Layout">Layout</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Entrega">Entrega</a>
+  <a href="#-Execução">Execução</a>
 </p>
 
 ## 🚀 Sobre o desafio
