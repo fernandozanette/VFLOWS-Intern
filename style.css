@@ -12,31 +12,16 @@ body {
 }
 
 .logo-vflows {
-    width: 20%;
+    width: 30%;
     height: 100%;
-    display: flex;
-    margin: auto;
-    margin-top: 50px;
 }
 
 .container {
     max-width: 90%;
-    margin: 50px auto;
-    background: #ffffff;
-    padding: 1.25rem;
-    border: solid #E4E7E7;
-    border-radius: 0.5rem;
-    border-width: 2px;
 }
 
 input {
     height: 3rem;
-}
-
-
-button {
-    width: 100%;
-    font-size: 1.25rem;
 }
 
 .error-text {
@@ -44,36 +29,13 @@ button {
     color: rgb(189, 0, 0);
 }
 
-
-.section-content {
-    border: solid #E4E7E7;
-    border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
-    border-width: 2px;
-    border-top: none;
-    padding: 1rem;
-    font-size: 1.25rem;
-}
-
 .section-header {
     background-color: #C3E61E;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-    margin: 0;
-    padding-inline: 1rem;
-    padding-block: 0.5rem;
     font-weight: bold;
-    font-size: 1.5rem;
 }
 
 .produtos-body {
     margin-block: 2rem;
-}
-
-#produto-dados, #anexo-dados {
-    border: solid #E4E7E7;
-    border-radius: 0.5rem;
-    border-width: 2px;
 }
 
 .required-indicator {
