@@ -28,11 +28,11 @@ O desenvolvimento do formulário seguiu o layout existente na guia: [Layout](#-l
 
 ## 📋 Tecnologias
 
-- **HTML**;
-- **JAVASCRIPT**;
-- **CSS**:  
-  - [BOOTSTRAP](https://getbootstrap.com/)
-  - [JQUERY-3.7.1 ](https://jquery.com/)
+- **HTML5**;
+- **CSS3**:  
+- **JavaScript**;
+- [Bootstrap 5](https://getbootstrap.com/)
+- [jQuery 3.7.1](https://jquery.com/)
 
 - **CONSIDERAÇÕES**:
   - Foi utilizada a documentação de recursos e estilos conforme este [link](https://style.fluig.com/)
@@ -100,4 +100,4 @@ Como este é um projeto front-end puro, não há necessidade de compilação ou 
 
 ---
 
-Made by [Fernando Zanette](https://github.com/fernandozanette) to [VFlows](https://vflows.com.br)
+Made by [Fernando Zanette](https://github.com/fernandozanette) for [VFlows](https://vflows.com.br)
