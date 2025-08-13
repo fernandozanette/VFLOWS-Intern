@@ -24,7 +24,7 @@ Este projeto visa cumprir o desafio para vaga de estágio em Front-end da empres
 
 Para o desafio, foi construído um formulário para cadastro de fornecedores e produtos.
 
-O desenvolvimento do formulário seguiu o layout existente na guia: **Layout**
+O desenvolvimento do formulário seguiu o layout existente na guia: [Layout](#-layout)
 
 ## 📋 Tecnologias
 
